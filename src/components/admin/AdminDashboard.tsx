@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { getDashboardStats } from '../../services/api';
-import { Package, Tag, AlertTriangle, ShoppingCart, DollarSign } from 'lucide-react';
+import { Package, Tag, AlertTriangle, ShoppingCart } from 'lucide-react';
 import type { Product } from '../../context/CartContext';
 
 interface Order {
